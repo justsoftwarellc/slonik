@@ -6,9 +6,9 @@
 /* eslint-disable unicorn/prevent-abbreviations */
 
 declare module 'pg' {
-  import events from 'node:events';
-  import type stream from 'node:stream';
-  import { type ConnectionOptions } from 'node:tls';
+  import events from 'events';
+  import type stream from 'stream';
+  import { type ConnectionOptions } from 'tls';
   import { type NoticeMessage } from 'pg-protocol/dist/messages';
   import type pgTypes from 'pg-types';
 

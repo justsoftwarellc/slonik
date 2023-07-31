@@ -1,5 +1,5 @@
 import { type ConnectionOptions } from '../types';
-import { stringify } from 'node:querystring';
+import { stringify } from 'querystring';
 
 type NamedParameters = {
   application_name?: string;

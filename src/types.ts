@@ -1,7 +1,7 @@
 import { type SlonikError } from './errors';
 import type * as tokens from './tokens';
-import { type Readable, type ReadableOptions } from 'node:stream';
-import { type ConnectionOptions as TlsConnectionOptions } from 'node:tls';
+import { type Readable, type ReadableOptions } from 'stream';
+import { type ConnectionOptions as TlsConnectionOptions } from 'tls';
 import {
   type Pool as PgPool,
   type PoolClient as PgPoolClient,

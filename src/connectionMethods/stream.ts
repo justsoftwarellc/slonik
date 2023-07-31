@@ -1,7 +1,7 @@
 import { QueryStream } from '../QueryStream';
 import { executeQuery } from '../routines/executeQuery';
 import { type Interceptor, type InternalStreamFunction } from '../types';
-import { type Readable } from 'node:stream';
+import { type Readable } from 'stream';
 import * as through from 'through2';
 
 export const stream: InternalStreamFunction = async (

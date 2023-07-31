@@ -1,5 +1,5 @@
-import { randomUUID } from 'node:crypto';
+import { uuid } from 'uuidv4';
 
 export const createUid = (): string => {
-  return randomUUID().split('-', 1)[0];
+  return uuid().split('-', 1)[0];
 };

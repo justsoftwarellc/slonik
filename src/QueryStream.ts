@@ -1,6 +1,6 @@
 /* eslint-disable canonical/id-match */
 
-import { Readable, type ReadableOptions } from 'node:stream';
+import { Readable, type ReadableOptions } from 'stream';
 import { type QueryResult } from 'pg';
 import Cursor from 'pg-cursor';
 
